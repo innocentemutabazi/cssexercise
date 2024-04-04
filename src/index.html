@@ -6,27 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2cba592e80.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <section id="home">
-        <header class="my-5">
+        <header class="py-4">
             <nav class="flex justify-around">
                 <img src="logo.svg">
-                <ul class="flex">
-                    <li class="mr-5 border border-gray-500 rounded-full px-3"><a><i
+                <ul class="flex font-Noto font-bold text-sm">
+                    <li class="mr-5 border border-gray-500 rounded-full px-3 py-2"><a><i
                                 class="fa-solid text-blue-500 fa-download"></i> download App</a></li>
-                    <li class="mr-5"><a>Trip planner</a></li>
-                    <li class="mr-5"><a>Register accommodation</a></li>
-                    <li class="mr-5"><a>Help</a></li>
-                    <li class="mr-5"><a>My journeys</a></li>
-                    <li><a>Register</a></li>
+                    <li class="mr-5 my-2"><a>Trip planner</a></li>
+                    <li class="mr-5 my-2"><a>Register accommodation</a></li>
+                    <li class="mr-5 my-2"><a>Help</a></li>
+                    <li class="mr-5 my-2"><a>My journeys</a></li>
+                    <li class="my-2"><a>Register</a></li>
                 </ul>
             </nav>
         </header>
-        <div>
+        <div class="relative">
             <img src="./2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.jpeg" class="z-0 absolute">
-            
+            <div class="bg-black z-10 relative w-full h-[100vh] bg-opacity-50">
+                <h1 class="text-white relative z-10 text-[60px] top-[45%] left-[10%] font-semibold font-Noto">Find your place for each other</h1>
+                <div class="bg-white relative z-10">
+                </div>
+            </div>
         </div>
     </section>
 </body>
